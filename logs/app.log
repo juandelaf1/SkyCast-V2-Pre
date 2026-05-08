@@ -350,3 +350,15 @@
 2026-05-08 10:35:18 [ERROR] Error en normalizacion de datos: error forzado
 2026-05-08 10:35:18 [ERROR] Error en normalizacion de datos: could not convert string to float: 'Ip'
 2026-05-08 10:36:53 [ERROR] Error en normalizacion de datos: error forzado
+2026-05-08 10:59:35 [INFO] Ubicación por GPS: 40.4167, -3.7033
+2026-05-08 10:59:35 [INFO] Ubicación resuelta: madrid
+2026-05-08 10:59:35 [INFO] Ubicación resuelta: barcelona
+2026-05-08 10:59:35 [WARNING] Ciudad no encontrada: CiudadInexistente
+2026-05-08 10:59:35 [INFO] Fallback: Madrid
+2026-05-08 10:59:35 [INFO] Fallback: Madrid
+2026-05-08 10:59:52 [INFO] Ubicación por GPS: 40.4167, -3.7033
+2026-05-08 10:59:52 [INFO] Ubicación resuelta: madrid
+2026-05-08 10:59:52 [INFO] Ubicación resuelta: barcelona
+2026-05-08 10:59:52 [WARNING] Ciudad no encontrada: CiudadInexistente
+2026-05-08 10:59:52 [INFO] Fallback: Madrid
+2026-05-08 10:59:52 [INFO] Fallback: Madrid
