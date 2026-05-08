@@ -362,3 +362,6 @@
 2026-05-08 10:59:52 [WARNING] Ciudad no encontrada: CiudadInexistente
 2026-05-08 10:59:52 [INFO] Fallback: Madrid
 2026-05-08 10:59:52 [INFO] Fallback: Madrid
+2026-05-08 18:47:18 [ERROR] No hay registro manual para el municipio 'MADRID'.
+2026-05-08 18:47:24 [ERROR] No hay registro manual para el municipio 'MADRID'.
+2026-05-08 18:47:29 [ERROR] No hay registro manual para el municipio 'MADRID'.

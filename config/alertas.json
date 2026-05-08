@@ -1,14 +1,14 @@
 {
   "version": "2.0",
   "actualizado": "2026-05-08",
-  "fuente": "AEMET - Agencia Estatal de Meteorología",
+  "fuente": "AEMET - Agencia Estatal de Meteorologia",
   "referencia": "https://www.aemet.es/es/ela_gis/riscos",
   "validacion": {
     "temperatura": {
       "min": -50,
       "max": 60,
-      "unidad": "°C",
-      "fuente": "OMM - Organización Meteorológica Mundial"
+      "unidad": "C",
+      "fuente": "OMM"
     },
     "humedad": {
       "min": 0,
@@ -26,151 +26,101 @@
       "min": 0,
       "max": 300,
       "unidad": "mm",
-      "fuente": "Registros históricos AEMET"
-    },
-    "presion": {
-      "min": 900,
-      "max": 1050,
-      "unidad": "hPa",
-      "fuente": "Presión atmosférica estándar"
+      "fuente": "Registros historicos AEMET"
     }
   },
   "alertas": {
     "temperatura": {
       "roja_alta": {
         "valor": 40,
-        "descripcion": "Temperatura extrema superior - Peligro máximo",
+        "descripcion": "Temperatura extrema superior",
         "color": "#dc2626",
-        "icono": "🔴",
         "nivel": "extremo"
       },
       "naranja_alta": {
         "valor": 35,
-        "descripcion": "Temperatura muy alta - Peligro importante",
+        "descripcion": "Temperatura muy alta",
         "color": "#f97316",
-        "icono": "🟠",
         "nivel": "alto"
       },
       "amarilla_alta": {
         "valor": 32,
-        "descripcion": "Temperatura alta - Aviso",
+        "descripcion": "Temperatura alta",
         "color": "#eab308",
-        "icono": "🟡",
         "nivel": "medio"
       },
       "amarilla_baja": {
         "valor": 3,
-        "descripcion": "Temperatura baja - Aviso",
+        "descripcion": "Temperatura baja",
         "color": "#eab308",
-        "icono": "🟡",
         "nivel": "medio"
       },
       "naranja_baja": {
         "valor": 0,
-        "descripcion": "Temperatura de helada - Peligro importante",
+        "descripcion": "Temperatura de helada",
         "color": "#f97316",
-        "icono": "❄️",
         "nivel": "alto"
       },
       "roja_baja": {
         "valor": -10,
-        "descripcion": "Temperatura extrema inferior - Peligro máximo",
+        "descripcion": "Temperatura extrema inferior",
         "color": "#dc2626",
-        "icono": "🥶",
         "nivel": "extremo"
       }
     },
     "viento": {
       "roja": {
         "valor": 80,
-        "descripcion": "Viento extremo - Peligro máximo",
+        "descripcion": "Viento extremo",
         "color": "#dc2626",
-        "icono": "💨",
         "nivel": "extremo"
       },
       "naranja": {
         "valor": 50,
-        "descripcion": "Viento muy fuerte - Peligro importante",
+        "descripcion": "Viento muy fuerte",
         "color": "#f97316",
-        "icono": "🌪️",
         "nivel": "alto"
       },
       "amarilla": {
         "valor": 30,
-        "descripcion": "Viento fuerte - Aviso",
+        "descripcion": "Viento fuerte",
         "color": "#eab308",
-        "icono": "💨",
         "nivel": "medio"
       }
     },
     "lluvia": {
       "roja": {
         "valor": 60,
-        "descripcion": "Lluvia extrema - Peligro máximo",
+        "descripcion": "Lluvia extrema",
         "color": "#dc2626",
-        "icono": "🌊",
         "nivel": "extremo"
       },
       "naranja": {
         "valor": 30,
-        "descripcion": "Lluvia muy intensa - Peligro importante",
+        "descripcion": "Lluvia muy intensa",
         "color": "#f97316",
-        "icono": "🌧️",
         "nivel": "alto"
       },
       "amarilla": {
         "valor": 15,
-        "descripcion": "Lluvia intensa - Aviso",
+        "descripcion": "Lluvia intensa",
         "color": "#eab308",
-        "icono": "🌦️",
         "nivel": "medio"
       }
     },
     "humedad": {
       "naranja": {
         "valor": 95,
-        "descripcion": "Humedad extrema - Peligro importante",
+        "descripcion": "Humedad extrema",
         "color": "#f97316",
-        "icono": "💧",
         "nivel": "alto"
       },
       "amarilla": {
         "valor": 85,
-        "descripcion": "Humedad muy alta - Aviso",
+        "descripcion": "Humedad muy alta",
         "color": "#eab308",
-        "icono": "💦",
         "nivel": "medio"
       }
-    },
-    "presion": {
-      "tormenta": {
-        "valor_baja": 980,
-        "descripcion": "Baja presión - Posible tormenta",
-        "color": "#8b5cf6",
-        "icono": "⛈️"
-      }
-    }
-  },
-  "fuentes_datos": {
-    "aemet": {
-      "nombre": "AEMET OpenData",
-      "url": "https://opendata.aemet.es/",
-      "cobertura": "España"
-    },
-    "omm": {
-      "nombre": "Organización Meteorológica Mundial",
-      "url": "https://public.wmo.int/",
-      "cobertura": "Global"
-    },
-    "ipapi": {
-      "nombre": "IP-API.com",
-      "url": "http://ip-api.com",
-      "uso": "Geolocalización por IP"
-    },
-    "nominatim": {
-      "nombre": "OpenStreetMap Nominatim",
-      "url": "https://nominatim.openstreetmap.org/",
-      "uso": "Geocoding y reverse geocoding"
     }
   }
 }
