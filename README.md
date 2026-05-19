@@ -314,3 +314,17 @@ Con 15 municipios de la Comunidad de Madrid y 5 zonas geográficas.
 ## 📄 Licencia
 
 MIT © 2026 Juan de la Fuente
+
+---
+
+## 🌐 Evolución del Proyecto
+
+Este repositorio es la **Fase 4 (Pre)** del ecosistema climático. Sirvió como puente entre Vortex y la versión Enterprise final.
+
+| Fase | Proyecto | Estado |
+|------|----------|--------|
+| 🟣 | [← Vortex](https://github.com/juandelaf1/Vortex) | ETL + PostgreSQL + Lineage |
+| 🟠 | **SkyCast V2 Pre ← (estás aquí)** | Analytics + JWT con salt + Docker |
+| 🟢 | [SkyCast Enterprise →](https://github.com/juandelaf1/SkyCast) | Consolidación final |
+
+**Lección aprendida:** JWT con SHA-256 + salt, detección de anomalías (std-dev + IQR), Docker Compose multicontenedor, dashboard Streamlit con 5 páginas, y rate limiting con slowapi.
